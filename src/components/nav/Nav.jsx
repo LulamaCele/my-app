@@ -15,7 +15,7 @@ export function Nav() {
                     <label class="logo">Perfect Weddings</label>
                     </Link>
                     <ul>
-                        <Link to={`/services`}>
+                        <Link to='/services'>
                         <li><a class="nav-link" href="" >Services</a></li>
                         </Link>
                         <Link to={`/testimonials`}>

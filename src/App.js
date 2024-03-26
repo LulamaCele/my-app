@@ -3,7 +3,10 @@ import "./App.css";
 import { Nav } from "./components/nav/Nav";
 import { Home } from "./pages/home/Home";
 import { Services } from "./pages/services/Services";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Testimonials } from './pages/testimonials/Testimonials';
+import { Gallery } from './pages/gallery/Gallery';
+import { Contact } from './pages/contact/Contact';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
           <Route exact path="/" >
             <Home />
           </Route>
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" ><Services /></Route>
+          <Route path="/testimonials" ><Testimonials /></Route>
+          <Route path="/gallery" ><Gallery /></Route>
+          <Route path="/contact" ><Contact /></Route>
         </Switch>
       </div>
     </Router>
