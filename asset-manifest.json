@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.192fee2e.css",
-    "main.js": "/my-app/static/js/main.003b40db.js",
+    "main.css": "/my-app/static/css/main.c954d161.css",
+    "main.js": "/my-app/static/js/main.a8933977.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/allison-heine-unsplash.jpg": "/my-app/static/media/allison-heine-unsplash.20ebf1212ef16afcfd9c.jpg",
+    "static/media/pexels-pixabay-265856.jpg": "/my-app/static/media/pexels-pixabay-265856.9e732718767f1d1c0f4f.jpg",
+    "static/media/main-picture.jpg": "/my-app/static/media/main-picture.92725054be1f4666ea63.jpg",
+    "static/media/marc-babin.jpg": "/my-app/static/media/marc-babin.64a992f2d4c23d475357.jpg",
+    "static/media/pexels-carsten-vollrath-13381459.jpg": "/my-app/static/media/pexels-carsten-vollrath-13381459.37efe3e660dbf432b11f.jpg",
     "index.html": "/my-app/index.html",
     "static/media/bars-solid.svg": "/my-app/static/media/bars-solid.69707d7401c01382651c5c630dc731f2.svg",
-    "main.192fee2e.css.map": "/my-app/static/css/main.192fee2e.css.map",
-    "main.003b40db.js.map": "/my-app/static/js/main.003b40db.js.map",
+    "main.c954d161.css.map": "/my-app/static/css/main.c954d161.css.map",
+    "main.a8933977.js.map": "/my-app/static/js/main.a8933977.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.192fee2e.css",
-    "static/js/main.003b40db.js"
+    "static/css/main.c954d161.css",
+    "static/js/main.a8933977.js"
   ]
 }
