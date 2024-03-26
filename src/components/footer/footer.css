@@ -1,0 +1,41 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 50px;
+    width: 100%;
+}
+
+footer div {
+    text-align: center;
+}
+
+.cta{
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    font-style: italic;
+    border: 1px solid burlywood;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 425px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .address, .contact-details, .copyright {
+        margin-bottom: 15px;
+    }
+
+    footer button {
+        padding: 12px;
+    }
+}

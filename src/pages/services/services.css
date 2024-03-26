@@ -1,0 +1,147 @@
+/* .services-wrapper-container {
+     display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 50px; 
+
+} 
+*/
+
+.img-container {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 95%;
+    padding-top: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-container div {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.img-container div p {
+    display: block;
+    font-size: 3rem;
+}
+
+.services-container {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.service-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    line-height: 80px;
+    border-top: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.service-item p:nth-child(1) {
+    width: 50%;
+}
+
+.service-item p:nth-child(2) {
+    width: 50%;
+}
+
+/* .services-container :last-child {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+} */
+
+.service-btn {
+    height:fit-content;
+    padding: 10px 30px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+@media  screen and (max-width: 768px) {
+    .img-container div {
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+    }
+    
+    .img-container div p {
+        display: block;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .img-container div {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+    }
+
+    .img-container div p {
+        display: block;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .service-item {
+        display: flex;
+        flex-direction: row;
+        line-height: 80px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .service-item p:nth-child(1) {
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    
+    .service-item p:nth-child(2) {
+        width: 20%;
+        margin-right: 15px
+    }
+
+    .service-btn {
+        height:fit-content;
+        padding: 5px 15px;
+        border: none;
+        font-size: 14px;
+        border-radius: 5px;
+        background-color: blanchedalmond;
+    }
+
+    
+
+
+}
